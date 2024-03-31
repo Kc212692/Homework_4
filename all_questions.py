@@ -137,7 +137,7 @@ def question10():
     answers["(a) P(C=1|-)"] = 0.2
 
     # type: explanatory string
-    answers["(a) P(A=1|+) explain your answer"] = None
+    answers["(a) P(A=1|+) explain your answer"] = "if most of the time when A is 1, the outcome is positive, then we think A=1 makes a positive outcome likely."
   
     # type: float
     # note: R is the sample (A=1,B=1,C=1)
@@ -149,7 +149,7 @@ def question10():
     answers["(b) class label"] = "+"
 
     # explain_string
-    answers["(b) Explain your reasoning"] = None
+    answers["(b) Explain your reasoning"] = "To guess if something is positive or negative, we use what we learned from counting and see which outcome looks more likely based on our counts."
   
     # float
     answers["(c) P(A=1)"] = 0.5
@@ -176,7 +176,7 @@ def question10():
     answers["(e) A independent of B given class +?"] = "no"
 
     # type: explanatory string
-    answers["(e) A and B conditionally independent given class +, explain"] =  None
+    answers["(e) A and B conditionally independent given class +, explain"] =  "We look again with our counts, but this time we check if knowing the outcome ahead of time changes how we think A and B are related. If not, then A and B don’t give us any new clues when we already know the outcome."
   
     return answers
 # --------------------------------------------------------
