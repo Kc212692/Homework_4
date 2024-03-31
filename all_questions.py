@@ -68,10 +68,10 @@ def question7():
     answers["(d)"] = False
 
     # explain_string: explanation in english prose
-    answers["(a) explain"] = 'In back-propagation, the error gradient for each layer is computed based on the gradient of the subsequent layer, utilizing the chain rule.'
-    answers["(b) explain"] = 'The activations at the (k+1)th layer are computed using the activations at the kth layer through forward propagation.'
-    answers["(c) explain"] = 'The vanishing gradient problem refers to gradients becoming small as error is propagated back, not training errors vanishing to zero.'
-    answers["(d) explain"] = 'Even if the ANN model classifies all training instances correctly, gradients of loss with respect to weights could still be nonzero.'
+    answers["(a) explain"] = "In back-propagation, the error gradient for each layer is computed based on the gradient of the subsequent layer, utilizing the chain rule."
+    answers["(b) explain"] = "The activations at the (k+1)th layer are computed using the activations at the kth layer through forward propagation."
+    answers["(c) explain"] = "The vanishing gradient problem refers to gradients becoming small as error is propagated back, not training errors vanishing to zero."
+    answers["(d) explain"] = "Even if the ANN model classifies all training instances correctly, gradients of loss with respect to weights could still be nonzero."
 
     return answers
 
